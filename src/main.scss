@@ -1,0 +1,19 @@
+$primary: red;
+
+$black: black;
+
+body{
+   background-color: $black;      
+}
+
+
+.test {
+   background: url('./images/test.png');
+   height: 50px;
+}
+
+
+div > p {
+
+	color: blue
+}
