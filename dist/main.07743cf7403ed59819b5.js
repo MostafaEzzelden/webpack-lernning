@@ -88,10 +88,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Test = function Test() {
-   _classCallCheck(this, Test);
+    _classCallCheck(this, Test);
 
-   (0, _Notefacation.log)('awelcom e ecma script');
-   alert();
+    (0, _Notefacation.log)('welcome ...');
 };
 
 new Test();
@@ -104,15 +103,14 @@ new Test();
 
 
 Object.defineProperty(exports, "__esModule", {
-   value: true
+    value: true
 });
-
 function notifay(msg) {
-   alert(msg);
+    alert(msg);
 }
 
 function log(msg) {
-   console.log(msg);
+    console.log(msg);
 }
 
 exports.notifay = notifay;

@@ -1,13 +1,12 @@
-
 function notifay(msg) {
-   alert(msg)
+    alert(msg)
 }
 
 function log(msg) {
-   console.log(msg)
+    console.log(msg)
 }
 
 export {
-   notifay,
-   log 
+    notifay,
+    log
 }
